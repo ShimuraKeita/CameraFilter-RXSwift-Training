@@ -13,6 +13,7 @@
 		23A4A86C25A8F1E900903D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A4A86A25A8F1E900903D01 /* Main.storyboard */; };
 		23A4A86E25A8F1EF00903D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A4A86D25A8F1EF00903D01 /* Assets.xcassets */; };
 		23A4A87125A8F1EF00903D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A4A86F25A8F1EF00903D01 /* LaunchScreen.storyboard */; };
+		23A4A87A25A8F39B00903D01 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A4A87925A8F39B00903D01 /* PhotosCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23A4A86D25A8F1EF00903D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23A4A87025A8F1EF00903D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23A4A87225A8F1EF00903D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A4A87925A8F39B00903D01 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				23A4A86D25A8F1EF00903D01 /* Assets.xcassets */,
 				23A4A86F25A8F1EF00903D01 /* LaunchScreen.storyboard */,
 				23A4A87225A8F1EF00903D01 /* Info.plist */,
+				23A4A87925A8F39B00903D01 /* PhotosCollectionViewController.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				23A4A86925A8F1E900903D01 /* ViewController.swift in Sources */,
 				23A4A86525A8F1E900903D01 /* AppDelegate.swift in Sources */,
 				23A4A86725A8F1E900903D01 /* SceneDelegate.swift in Sources */,
+				23A4A87A25A8F39B00903D01 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
